@@ -1,3 +1,10 @@
+<script setup>
+import Navbar from '@/components/Navbar.vue'
+import { RouterView } from 'vue-router';
+
+</script>
 <template>
-  <h1>Vue Jobs</h1>
+  <Navbar />
+  <RouterView />
+  <!-- <h1 class="text-3xl font-bold underline">    Hello world!  </h1> -->
 </template>
